@@ -3,7 +3,7 @@ function showMessage() {
     document.getElementById("result").style.display = "block";
 };
 
-//Rente berekenen
+//Rente berekenen 
 function compute() {
     var principal = document.getElementById("principal").value;
     if (parseInt(principal) < 1) {
@@ -11,7 +11,7 @@ function compute() {
         document.getElementById("principal").focus();
         return;
     }
-    //haalt waarden op
+    //haalt waarden op vanuit id's
 
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
